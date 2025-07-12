@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "695687076372",
+    "project_id": "bitrixgo-394da",
+    "storage_bucket": "bitrixgo-394da.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695687076372:android:8de01217d924aa3c79e501",
+        "android_client_info": {
+          "package_name": "com.example.bitrix_go"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjFeHa1_NxeycfgUlmbWNtl1aa_LC6M1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
