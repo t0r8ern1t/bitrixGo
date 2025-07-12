@@ -6,7 +6,6 @@ import 'package:camera/camera.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'ar-screen.dart';
 import 'firebase_options.dart';
-import 'screens/main_game_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

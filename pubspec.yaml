@@ -14,7 +14,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   permission_handler: ^11.3.1
   ar_flutter_plugin_2: ^0.0.3
-  firebase_core: ^2.15.0
+  firebase_core: ^2.18.0
+  firebase_database: ^10.3.14
   vector_math: ^2.1.4
   google_fonts: ^4.0.4
 dev_dependencies:

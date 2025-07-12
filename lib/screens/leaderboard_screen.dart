@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:bitrix_go/Entities/player.dart';
 
 class LeaderboardScreen extends StatelessWidget {
   // Mock data - replace with your actual data source
@@ -144,20 +145,4 @@ class LeaderboardScreen extends StatelessWidget {
       default: return Colors.blue.shade100;
     }
   }
-}
-
-class Player {
-  final String name;
-  final int score;
-  final int rank;
-  final String avatar;
-  final bool isCurrentUser;
-
-  Player({
-    required this.name,
-    required this.score,
-    required this.rank,
-    required this.avatar,
-    this.isCurrentUser = false,
-  });
 }
