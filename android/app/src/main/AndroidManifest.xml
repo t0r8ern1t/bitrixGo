@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
     <application
         android:label="bitrix_go"
         android:name="${applicationName}"

@@ -1,11 +1,17 @@
 import 'package:bitrix_go/screens/inventory_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'ar-screen.dart';
+import 'firebase_options.dart';
 import 'screens/main_game_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Initialize Firebase
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   await requestAppPermissions();
 
@@ -25,10 +31,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Bitrix Go',
       theme: ThemeData.dark(),
-      home: MainGameScreen(camera: camera),
+      home: ARGameScreen(camera: camera), // Update to use ARGameScreen
       routes: {
         '/inventory': (context) => InventoryScreen(),
-        //'/leaderboard': (context) => LeaderboardScreen(),
+        // '/leaderboard': (context) => LeaderboardScreen(),
       },
     );
   }
