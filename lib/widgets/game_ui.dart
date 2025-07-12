@@ -68,7 +68,7 @@ class GameUI extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           _buildActionButton(Icons.ac_unit, "Leaderboard", context, () {
-            return; // Navigate to MapScreen
+            Navigator.pushNamed(context, '/leaderboard'); // Navigate to LeaderboardScreen
           }),
           _buildActionButton(Icons.backpack, "Inventory", context, () {
             Navigator.pushNamed(context, '/inventory'); // Navigate to ItemsScreen

@@ -1,4 +1,5 @@
 import 'package:bitrix_go/screens/inventory_screen.dart';
+import 'package:bitrix_go/screens/leaderboard_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
       home: ARGameScreen(camera: camera), // Update to use ARGameScreen
       routes: {
         '/inventory': (context) => InventoryScreen(),
-        // '/leaderboard': (context) => LeaderboardScreen(),
+        '/leaderboard': (context) => LeaderboardScreen(),
       },
     );
   }
