@@ -14,7 +14,7 @@ dependencies:
   cloud_firestore: ^4.8.0
   cupertino_icons: ^1.0.8
   arcore_flutter_plugin: ^0.1.0
-  ar_flutter_plugin:
+  ar_flutter_plugin: ^0.7.3
   firebase_core: ^2.15.0
   vector_math: ^2.1.4
 
